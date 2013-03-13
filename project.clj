@@ -5,5 +5,6 @@
                            [korma "0.3.0-beta7"]
                            [lobos "1.0.0-SNAPSHOT"]
                            [mysql/mysql-connector-java "5.1.6"]]
+            :repl-retry-limit 1000
             :main korma-lobos-tpl.server)
 
