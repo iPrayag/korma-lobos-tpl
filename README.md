@@ -4,7 +4,7 @@ A template integrating Korma and Lobos.
 
 ## Usage
 
-Create a MySQL db and provide details in src/korma_lobos_tpl/secret.clj in the form of dynamic bindings of all the required names used in lobos.config and korma-lobos-tpl.entities.connection.
+Create a MySQL db and provide details in `src/korma_lobos_tpl/secret.clj` in the form of dynamic bindings of all the required names used in `lobos.config` and `korma-lobos-tpl.entities.connection`.
 
 ```bash
 lein deps
