@@ -6,8 +6,8 @@ A template integrating Korma and Lobos.
 
 Create a MySQL db and provide details in `src/korma_lobos_tpl/secret.clj` in the form of dynamic bindings of all the required names used in `lobos.config` and `korma-lobos-tpl.entities.connection`.
 
-```(ns korma-lobos-tpl.secret)
-
+```
+(ns korma-lobos-tpl.secret)
 (def ^:dynamic *db-name* "tpl")
 (def ^:dynamic *db-user* "root")
 (def ^:dynamic *db-password* "mysql55")
@@ -34,7 +34,8 @@ Once in the REPL:
 
 After the migration, check the database
 
-```mysql> use tpl;
+```
+mysql> use tpl;
 Reading table information for completion of table and column names
 You can turn off this feature to get a quicker startup with -A
 
